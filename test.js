@@ -1,4 +1,4 @@
-const { mpapi } = require('./index.js');
+const { mpapi } = require('index.js');
 
 const mnemonic = mpapi.crypto.generateMnemonic();
 
