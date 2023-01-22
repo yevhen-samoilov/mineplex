@@ -1,7 +1,7 @@
 if (typeof XMLHttpRequest == "undefined") XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 //main.js
 if (typeof require == "undefined") require = require("buffer/").Buffer;
-const defaultProvider = "http://127.0.0.1:8732",
+const defaultProvider = "https://web-wallet.mineplex.io/api/2.0/",
   library = {
     bs58check: require('bs58check'),
     sodium: require('sodium-universal'),
